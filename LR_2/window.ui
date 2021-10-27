@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>735</width>
+    <height>495</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>LR№2 Онищенко Назар</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>9</y>
+      <width>721</width>
+      <height>481</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QComboBox" name="ComboGraphic">
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <item>
+        <property name="text">
+         <string>Graphic 1</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Graphic 2</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Graphic 3</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Graphic 1-3</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Graphic compare methods 1-3</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Graphic iteration approxymation</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="ComboMethod">
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="currentText">
+        <string>Method Dihotomy</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>Method Dihotomy</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Method Gold Slice</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="ButtonApply">
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string>Apply</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="ButtonExit">
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string>Exit</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QTableWidget" name="Table2">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);</string>
+       </property>
+       <row>
+        <property name="text">
+         <string>1</string>
+        </property>
+       </row>
+       <column>
+        <property name="text">
+         <string>Z1(k)</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Z2(k)</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Z3(k)</string>
+        </property>
+       </column>
+      </widget>
+     </item>
+     <item>
+      <widget class="QTableWidget" name="Table1">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);</string>
+       </property>
+       <row>
+        <property name="text">
+         <string>1</string>
+        </property>
+       </row>
+       <column>
+        <property name="text">
+         <string>X1min(k)</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>F1(Х1min(k))</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>X2min(k)</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>F2(X2min(k))</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>X3min(k)</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>F3(X3min(k))</string>
+        </property>
+       </column>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
